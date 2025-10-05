@@ -1,0 +1,62 @@
+.text-pink {
+  color: #e91e63;
+}
+
+.profesional-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  background: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.profesional-card .info h3 {
+  color: #e91e63;
+  margin-bottom: 5px;
+}
+
+.calendar {
+  display: grid;
+  grid-template-columns: repeat(7, 40px);
+  gap: 5px;
+}
+
+.calendar button {
+  border: none;
+  padding: 8px;
+  border-radius: 6px;
+  background: #f8bbd0;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.calendar button:hover {
+  background: #e91e63;
+  color: white;
+}
+
+.calendar button.today {
+  border: 2px solid #e91e63;
+}
+
+.horarios {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.horarios button {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 6px;
+  background: #f8bbd0;
+  cursor: pointer;
+}
+
+.horarios button:hover {
+  background: #e91e63;
+  color: white;
+}
